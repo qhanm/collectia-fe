@@ -1,0 +1,23 @@
+.header {
+    height: 40px;
+}
+.headerText {
+    color: gray;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+.logout {
+    color: gray;
+    margin-top: 16px;
+    float: right;
+    font-size: 14px;
+    margin-right: 0px;
+}
+
+@media (max-width: 700px) {
+    .headerText{
+        display: none;
+    }
+}
+
